@@ -146,17 +146,17 @@ async def handle_logo_image(event):
                             return
                     else:
                         await event.respond("❌ Formato de vídeo não suportado.")
-                        event.client.set_user_state(sender_id, event.client.conversation_state.IDLE)
+                        event.client.set_user_state(sender_id, event.client.conversation_state.WAITING_LOGO)
                         return
 
                 else:
                     await event.respond("❌ Formato não suportado. Envie uma imagem (JPG, PNG) ou GIF.")
-                    event.client.set_user_state(sender_id, event.client.conversation_state.IDLE)
+                    event.client.set_user_state(sender_id, event.client.conversation_state.WAITING_LOGO)
                     return
 
             else:
                 await event.respond("❌ Tipo de mídia não suportado. Envie uma imagem ou GIF.")
-                event.client.set_user_state(sender_id, event.client.conversation_state.IDLE)
+                event.client.set_user_state(sender_id, event.client.conversation_state.WAITING_LOGO)
                 return
 
             if 'file_path' in locals() and file_path:
@@ -164,7 +164,7 @@ async def handle_logo_image(event):
                 return await generate_pix_qr(event, pix_key, amount, file_path, extension)
             else:
                 await event.respond("❌ Erro ao processar o arquivo. Tente novamente.")
-                event.client.set_user_state(sender_id, event.client.conversation_state.IDLE)
+                event.client.set_user_state(sender_id, event.client.conversation_state.WAITING_LOGO)
                 return
 
         except Exception as e:
