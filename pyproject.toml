@@ -1,0 +1,23 @@
+[project]
+name = "pypixbot"
+version = "1.0.0"
+description = "Um bot para gerar QR Codes estáticos do Pix."
+authors = [
+    {name = "cleiton",email = "cleiton.leonel@gmail.com"}
+]
+package-mode = false
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "toml (>=0.10.2,<0.11.0)",
+    "schedule (>=1.2.2,<2.0.0)",
+    "telethon (>=1.40.0,<2.0.0)",
+    "smartbot @ git+https://github.com/cleitonleonel/SmartBot.git",
+    "pypix @ git+https://github.com/cleitonleonel/pypix.git",
+    "imageio[ffmpeg] (>=2.37.0,<3.0.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

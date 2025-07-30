@@ -1,0 +1,24 @@
+cairocffi==1.7.1
+CairoSVG==2.8.2
+cffi==1.17.1
+cssselect2==0.8.0
+defusedxml==0.7.1
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+numpy==2.3.2
+pillow==11.3.0
+psutil==7.0.0
+pyaes==1.6.1
+pyasn1==0.6.1
+pycparser==2.22
+pypix @ git+https://github.com/cleitonleonel/pypix.git@29129d68575d126bba635a7a0e2b12e815f17410
+pypng==0.20220715.0
+qrcode==7.4.2
+rsa==4.2
+schedule==1.2.2
+smartbot @ git+https://github.com/cleitonleonel/SmartBot.git@91f5daa09d88f852646af92d831e4dad64020c36
+Telethon==1.40.0
+tinycss2==1.4.0
+toml==0.10.2
+typing_extensions==4.14.1
+webencodings==0.5.1

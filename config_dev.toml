@@ -1,0 +1,15 @@
+[API]
+# Acesse https://my.telegram.org/auth
+ID = 123456 # ID Telegram
+HASH = "API Hash Telegram"
+BOT_TOKEN = "Token do Bot criado via BotFather"
+
+[ADMIN]
+IDS = [2222222222] # IDs dos chats admin
+
+[APPLICATION]
+APP_NAME = "SmartBot"
+APP_AUTHOR = "Cleiton Leonel Creton"
+APP_VERSION = "0.1.0"
+DEVICE_MODEL = "Telegram Desktop 5.1.7 Snap"
+SYSTEM_VERSION = "Linux Ubuntu GNOME"
