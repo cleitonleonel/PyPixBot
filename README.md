@@ -280,7 +280,7 @@ logging.info(f"Start Handler Triggered by User ID: {sender_id}")
 "Compare & pull request" — clique nela.
 Ou vá em "Pull requests" > "New pull request".
 
-   - Selecione a branch base (ex: main) e compare com docs/mkdocs-estrutura.
+   - Selecione a branch base (ex: main) e compare com o projeto PyPixBot.
 
    - Preencha o título e a descrição (exemplo abaixo).
 
