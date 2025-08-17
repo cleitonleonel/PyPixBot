@@ -20,6 +20,8 @@
 
 ---
 
+![faz-o-l-pix.gif](src/media/faz-o-l-pix.gif)
+
 # 📋 Documentação do PyPixBot
 
 ## 📖 Visão Geral
